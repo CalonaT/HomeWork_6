@@ -1,0 +1,394 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background-image: url(/img/background\ 1.png);
+  background-repeat: no-repeat;
+  width: 1366px;
+  height: 100vh;
+}
+
+.header_logo:nth-child(1) {
+  width: 53px;
+  height: 47px;
+}
+.header_text {
+  width: 140px;
+  height: 30px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.header_subtext {
+  width: 135px;
+  height: 21px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.header_link_logo {
+  display: flex;
+  text-decoration: none;
+}
+
+.milan_holidays {
+  padding-left: 8px;
+}
+
+.header_logo {
+  padding: 51px 0px 0px 161px;
+  display: flex;
+}
+
+.mail {
+  width: 219px;
+  height: 21px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin-left: 608px;
+  text-decoration: none;
+}
+
+.number {
+  width: 146px;
+  height: 21px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin: 19px 0px 17px 686px;
+  text-decoration: none;
+}
+
+.main_block {
+  margin-left: 165px;
+  margin-top: 22px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 220px 220px;
+  row-gap: 78px;
+}
+
+.main_block a {
+  text-decoration: none;
+}
+
+.text_tours {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.text_sightseeing {
+  margin-top: -9px;
+}
+
+.sightseeing_tours {
+  margin-left: 61px;
+}
+
+.food_tours {
+  margin-left: 123px;
+}
+
+.art_architecture {
+  margin-left: 64px;
+}
+
+.walking_tours {
+  margin-left: 127px;
+}
+
+.text_shopping {
+  width: 140px;
+  height: 21px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.text_sightseeing {
+  width: 163px;
+  height: 21px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #ffffff;
+  margin-left: 61px;
+}
+
+.text_food {
+  margin-left: 123px;
+  width: 163px;
+  height: 21px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+  white-space: nowrap;
+  color: #ffffff;
+}
+
+.text_bars {
+  width: 163px;
+  height: 21px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.text_art {
+  width: 163px;
+  height: 21px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #ffffff;
+  margin-left: 64px;
+}
+
+.text_walking {
+  width: 163px;
+  height: 21px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #ffffff;
+  margin-left: 127px;
+  white-space: nowrap;
+}
+
+.Copyright {
+  width: 306px;
+  height: 21px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #ffffff;
+  margin-top: 90px;
+  margin-left: 530px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+/* hover */
+
+.number:hover {
+  color: #f26522;
+}
+
+.mail:hover {
+  color: #f26522;
+}
+
+.text_tours > span:hover {
+  color: #f26522;
+}
+
+.logo_img:hover {
+  opacity: 0;
+}
+
+.logo_img_hover {
+  opacity: 0;
+  position: absolute;
+}
+
+#dad:hover #sis {
+  color: #f26522;
+}
+
+#dad:hover #bro {
+  color: #f26522;
+  opacity: 1;
+}
+
+.bottom_box {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  background: #f26522;
+  transition: all 0.5s;
+  opacity: 0;
+  margin-top: -20px;
+}
+
+.shopping_tours:hover .bottom_box {
+  opacity: 1;
+  margin-top: -50px;
+}
+
+.sightseeing_tours:hover .bottom_box {
+  opacity: 1;
+  margin-top: -50px;
+}
+
+.food_tours:hover .bottom_box {
+  opacity: 1;
+  margin-top: -50px;
+}
+
+.bars_bightlife:hover .bottom_box {
+  opacity: 1;
+  margin-top: -50px;
+}
+
+.art_architecture:hover .bottom_box {
+  opacity: 1;
+  margin-top: -50px;
+}
+
+.walking_tours:hover .bottom_box {
+  opacity: 1;
+  margin-top: -50px;
+}
+
+.bottom_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom_left_text {
+  display: grid;
+}
+
+.sightseeing_img {
+  width: 300px;
+  height: 220px;
+}
+
+.shopping_img {
+  width: 300px;
+  height: 220px;
+}
+
+.food_img {
+  width: 300px;
+  height: 220px;
+}
+
+.bars_img {
+  width: 300px;
+  height: 220px;
+}
+
+.art_img {
+  width: 300px;
+  height: 220px;
+}
+
+.walking_img {
+  width: 300px;
+  height: 220px;
+}
+
+.from {
+  width: 22px;
+  height: 14px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  color: #ffffff;
+  margin-top: 7px;
+  margin-left: 16px;
+}
+
+.price {
+  width: 36px;
+  height: 14px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-bottom: 12px;
+  margin-left: 16px;
+}
+
+.bottom_right_text {
+  margin-top: 29px;
+  margin-bottom: 14px;
+  width: 78px;
+  height: 14px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #ffffff;
+  white-space: nowrap;
+  margin-right: 37px;
+}
+
+.bottom_right_text::after {
+  content: ">";
+  margin-right: 16px;
+  margin-left: 16px;
+  width: 5px;
+  height: 10px;
+}
+
+/* linearGradient */
+
+.border {
+  z-index: 1;
+  width: 300px;
+  height: 220px;
+  border-width: 4px;
+  border-style: solid;
+  border-top: none;
+  border-bottom: none;
+  border-image: linear-gradient(to bottom, black, white) 1;
+}
